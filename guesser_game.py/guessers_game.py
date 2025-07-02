@@ -33,7 +33,7 @@ def guessers_game():
     attempts = 0
     winners = [] # List to store the names of player who guessed correctly
 
-    print("\nGuessers, try to guess the number! You have % attempts.\n")
+    print("\nGuessers, try to guess the number! You have 5 attempts.\n")
     while attempts < max_attempts:
         guesses = [] # List to collect all players guesses in the current round
         print(f"--- Round {attempts + 1} ---")
